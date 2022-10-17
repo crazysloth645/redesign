@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Credits to	https://unsplash.com/s/photos/lens for the visual design image and https://gmortymakers.com/ for their website -->
+
+<title>G.Morty and the Makers</title>
+    <meta name="description" content="G.Morty">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="bootstrap.css" /> 
+<link rel="stylesheet" type="text/css" href="styles.css" /> 
+</head>
+<body>
+<div class="d-flex flex-column main"> 
+  
+  <div class="header d-flex flex-row">
+    <img src=../assets/img/gmlogo.png id="gmlogo" alt="Gmorty Logo">
+    <!-- <div class ="navPanel d-flex flex-row collapse">  -->
+      <div class ="navPanel d-flex flex-row"> 
+      <button type="button" class="myButton" id="searchIcon"><img src="../assets/img/search_orange.png" alt="search icon" width="30px" height="30px"></button>
+       <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <button class="navbar-toggler togglerBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item homeBtn">
+                <a class="nav-link active" aria-current="page" href="#" style="
+                  padding-left: 1.2rem;
+                  padding-right: 1.2rem;
+                  
+              "> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Work</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </nav> 
+    </div>
+  </div>
+
+  <div class="bodyOne d-flex flex-row">
+<div class="textBodyOne d-flex flex-column">
+  <div class="subtitle">
+    Our Mission
+  </div>
+<p>
+  We are an established, full-service marketing agency lead by Gerald Mortensen and his decades of “skyscraper” advertising agency and creative writing experience. Based in Wausau, Wisconsin, The Makers assist local, regional, and national clients, helping brands reach their full potential.
+  <p class ="accentNotes" style="color:black"><b>What can we make for you today? </b></p>
+  
+</p>
+<!-- <button class="explore btn-primary">
+  Explore our Services
+</button> -->
+<button type="button" class="btn btn-primary exploreBtn"><a href="#Services" id="btnLink" style="text-decoration: none; color: #D35B3A;">Explore our Services</a></button>
+</div>
+<div class="mktgImage" id="mktg">
+  <img src=../assets/img/mktg.png alt="loudspeaker">
+</div>
+  </div>
+
+
+  <div class ="bodyTwo">
+    <div class="subtitle">
+      Our Clients Say
+    </div>
+    <div class="testimonial">
+<p>“Delivery is always on-time and on-brand.”
+  <br><b>— Verve, a Credit Union</b> </p>
+    </div>
+
+    <div class="testimonial">
+      <p>“The team at G. Morty helps us drill down to the essence of our goals, ideas, plans and thoughts and then creates the perfect marketing message for each program.”
+        <br><b>— Marathon County Solid Waste Department</b> </p>
+          </div>
+
+          <div class="testimonial">
+            <p>“We have worked with the team at G. Morty & the Makers for nearly a decade. I appreciate their candor, fresh ideas, and ability to create an awesome end product.”
+              <br><b> — Ruder Ware</b> </p>
+                </div>
+
+  </div>
+
+  <div class="bodyThree" id="Services">
+    <div class="subtitleBlack">
+      Our Services
+    </div>
+    <div class="container bodyThreeContainer">
+      <div class="row text-center justify-content-center">
+
+ <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/brand.jpeg alt=""></button>
+<h5 class="label">Brand Identity & Strategy</h5>
+</div>
+<div class="col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/brand2.jpeg alt=""></button>
+<h5 class="label">Brand Voice & Copywriting</h5>
+</div>
+<div class=" col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/content.jpeg alt=""></button>
+<h5 class="label">Content Creation</h5>
+</div>
+<div class=" col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/dm.jpeg alt=""></button>
+<h5 class="label">Digital Marketing</h5>
+</div>
+<div class=" col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/graphic.jpeg alt=""></button>
+<h5 class="label">Graphic Design</h5>
+</div>
+<div class=" col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/smm.jpeg alt=""></button>
+<h5 class="label">Social Media Management</h5>
+</div>
+<div class=" col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/video.jpeg alt=""></button>
+<h5 class="label">Video Production</h5>
+</div>
+<div class=" col-10 col-sm-6 col-md-4 col-lg-3">
+  <button type="button" class="myButton"><img src=../assets/img/webdesign.jpeg alt=""></button>
+<h5 class="label">Web Design & Development</h5>
+</div>
+
+      </div>
+    </div>
+    <a href="#"><img src="../assets/img/up.svg" id="fixedbutton" alt="up caret"></a>
+  </div>
+</div>
+</body>
+</html>
